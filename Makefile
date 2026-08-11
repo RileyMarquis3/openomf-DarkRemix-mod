@@ -7,7 +7,7 @@ ZIPS := mod_files/ARENA0.zip mod_files/ARENA1.zip mod_files/ARENA2.zip mod_files
 ARENA0_META := \
     -map_metadata -1 \
     -metadata album="OpenOMF Soundtrack" \
-    -metadata artist="Shady Monk" \
+    -metadata artist="DeadFutureRadio" \
     -metadata title="Arena 0 (Stadium)" \
     -metadata LOOPSTART=2040000 \
     -metadata LOOPEND=11605334
@@ -15,31 +15,31 @@ ARENA0_META := \
 ARENA1_META := \
     -map_metadata -1 \
     -metadata album="OpenOMF Soundtrack" \
-    -metadata artist="DeBisco" \
+    -metadata artist="DeadFutureRadio" \
     -metadata title="Arena 1 (Danger Room)"
 
 ARENA2_META := \
     -map_metadata -1 \
     -metadata album="OpenOMF Soundtrack" \
-    -metadata artist="DeBisco" \
+    -metadata artist="DeadFutureRadio" \
     -metadata title="Arena 2 (Power Plant)"
 
 ARENA3_META := \
     -map_metadata -1 \
     -metadata album="OpenOMF Soundtrack" \
-    -metadata artist="Shady Monk" \
+    -metadata artist="DeadFutureRadio" \
     -metadata title="Arena 3 (Fire Pit)"
 
 ARENA4_META := \
     -map_metadata -1 \
     -metadata album="OpenOMF Soundtrack" \
-    -metadata artist="Shady Monk" \
+    -metadata artist="DeadFutureRadio" \
     -metadata title="Arena 4 (Desert)"
 
 END_META := \
     -map_metadata -1 \
     -metadata album="OpenOMF Soundtrack" \
-    -metadata artist="DeBisco" \
+    -metadata artist="DeadFutureRadio" \
     -metadata title="Ending" \
     -metadata LOOPSTART=960000 \
     -metadata LOOPEND=7344000
