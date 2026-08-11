@@ -101,6 +101,21 @@ master).
 
 Each track's license is included in its directory as `LICENSE.txt`.
 
+
+## Troubleshooting
+
+If audio mods in OpenOMF (the open-source engine for One Must Fall: 2097) are not working, it is usually caused by incorrect folder structures, missing loop tags in OGG files, or misnamed configuration manifests.  
+<ul>
+  
+<li> Fixing OpenOMF Audio ModsCheck the Manifest: Ensure every music or sound mod contains a valid manifest.ini file in its root folder. </li> <br>
+
+<li> Verify Audio Formats: Audio tracks must be properly encoded as .ogg files (FLAC files need to be converted before packaging). </li> <br>
+
+<li> Loop Tags: Music tracks like arena themes require specific loop points (LOOPSTART and LOOPEND tags) encoded into the OGG metadata, or they may fail to play or loop properly. </li> <br>
+
+<li> Correct Directory: Place the zipped mod or unpacked mod folder into the designated OpenOMF mods/ directory. </li> <br>
+</ul>
+
 ## File Tags
 
 <h5>
