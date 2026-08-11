@@ -1,9 +1,17 @@
 # openomf-DarkRemix-mod
 DarkRemix Mod by DeadFutureRadio for use in OpenOMF
 
-NOTE: This README was copied from https://github.com/RileyMarquis3/openomf-music-mod/blob/main/README.md and is in the middle of being updated for my creation of the music mod with audio by DeadFutureRadio. <br>
+NOTE: This README was copied from https://github.com/omf2097/openomf-music-mod/blob/main/README.md <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and is in the middle of being updated for my creation of the music mod with audio by DeadFutureRadio. <br>
+
+<p> 
 I am NOT the author of the audio tracks!  I am simply learning how to make this mod for OpenOMF. <br>
+</p>
+
+<p>
 Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoyment. <br>
+</p>
+
+<hr> 
 
 ### What I Have Done So Far
 <ul>
@@ -22,6 +30,8 @@ Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoy
   <li>Let DarkFutureRadio know about the mod and have it reviewed and approved.</li>
 </ul>
 
+<hr> 
+
 # Soundtracks
 
 Tracks by [**Shady Monk**](https://linktr.ee/shadymonk) (Shay.) and [**DeBisco**](https://www.debiscomusic.com/).
@@ -37,6 +47,8 @@ Tracks by [**Shady Monk**](https://linktr.ee/shadymonk) (Shay.) and [**DeBisco**
 | ARENA3 | DeadFutureRadio | Arena 3 (Fire Pit) | 3:55 |
 | ARENA4 | DeadFutureRadio | Arena 4 (Desert) | 2:37 |
 | END | DeadFutureRadio | Ending | 3:00 |
+
+<hr>
 
 ## Building
 
@@ -101,6 +113,7 @@ master).
 
 Each track's license is included in its directory as `LICENSE.txt`.
 
+<hr> 
 
 ## Troubleshooting
 
@@ -115,6 +128,8 @@ If audio mods in OpenOMF (the open-source engine for One Must Fall: 2097) are no
 
 <li> Correct Directory: Place the zipped mod or unpacked mod folder into the designated OpenOMF mods/ directory. </li> <br>
 </ul>
+
+<hr>
 
 ## File Tags
 
