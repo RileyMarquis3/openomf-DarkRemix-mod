@@ -1,18 +1,23 @@
 # openomf-DarkRemix-mod
 DarkRemix Mod by DeadFutureRadio for use in OpenOMF
 
-NOTE: This README was copied from https://github.com/omf2097/openomf-music-mod/blob/main/README.md <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and is in the middle of being updated for my creation of the music mod with audio by DeadFutureRadio. <br>
+### Disclaimers & Legal Stuff
 
-<p> 
+NOTE: This README was copied from <a href="https://github.com/omf2097/openomf-music-mod/blob/main/README.md"> The OpenOMF Music Mod README</a>  and is being updated for this project.
+
+<div id="Disclaimers">
+  <details open>
 I am NOT the author of the audio tracks!  I am simply learning how to make this mod for OpenOMF. <br>
 </p>
 
 <p>
 Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoyment. <br>
-</p>
+</div>
 
 <hr> 
 
+<div id="Status">
+  <details open>
 ### What I Have Done So Far
 
 #### Music File Acquisition / Splitting
@@ -32,6 +37,8 @@ Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoy
   <li>Updated the LICENSE.ini and manifest.ini files.</li>
 </ul>
 
+<hr>
+
 ### Things I Still Need To Do
 <ul>
   <li>Determine and create the loop points.</li>
@@ -40,8 +47,12 @@ Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoy
   <li>Let DarkFutureRadio know about the mod and have it reviewed and approved.</li>
 </ul>
 
+</div>
+
 <hr> 
 
+<div id="Soundtracks">
+  <details open>
 # Soundtracks
 
 Tracks by [**DeadFutureRadio**](https://deadfutureradio.com/).
@@ -57,9 +68,13 @@ Tracks by [**DeadFutureRadio**](https://deadfutureradio.com/).
 | ARENA4 | DeadFutureRadio | Arena 4 (Desert) | 2:37 |
 | END | DeadFutureRadio | Ending | 3:00 |
 
+</div>
+
 <hr>
 
-## Building
+<div id="Building">
+  <details>
+# Building
 
 Requirements: `ffmpeg` (with libopus), `ffmpeg-normalize` (install via python pip),
 flac`, `zip`, and `git-lfs` (the flac sources are stored via LFS).
@@ -94,7 +109,7 @@ The zips in `mod_files/` are the distributable mods. Each contains
 Some tracks have an intro followed by a loopable section. When playback reaches
 the loop end, it should jump back to the loop start (not to 0:00).
 
-### ARENA0 — Stadium (Shady Monk)
+#### ARENA0 — Stadium (Shady Monk)
 
 - File: `ARENA0/Shady Monk - Stadium Remix [m1].flac`
 - Intro: 0:00 – 0:42
@@ -106,7 +121,7 @@ exact frame is tempo-dependent) until the end of the file is the loopable
 portion — once playback reaches the end of the file it should loop back to the
 0:42 mark.
 
-### END — Ending (DeBisco)
+#### END — Ending (DeBisco)
 
 - File: `END/DeBisco - Ending [OST Version] [24-Bit Master] V3.flac`
 - Intro: 0:00 – 0:20
@@ -122,8 +137,12 @@ master).
 
 Each track's license is included in its directory as `LICENSE.txt`.
 
+</div>
+
 <hr> 
 
+<div id="Troubleshooting">
+  <details open>
 ## Troubleshooting
 
 If audio mods in OpenOMF (the open-source engine for One Must Fall: 2097) are not working, it is usually caused by incorrect folder structures, missing loop tags in OGG files, or misnamed configuration manifests.  
@@ -138,13 +157,16 @@ If audio mods in OpenOMF (the open-source engine for One Must Fall: 2097) are no
 <li> Correct Directory: Place the zipped mod or unpacked mod folder into the designated OpenOMF mods/ directory. </li> <br>
 </ul>
 
+</div>
+
 <hr>
 
+<div id="FileTags">
+  <details open>
 ## File Tags
 
-<h5>
 In OpenOMF (the open-source clone of One Must Fall 2097), LOOPSTART and LOOPEND metadata tags are used inside .ogg audio files to create seamless background music. These tags allow the game engine to play a track's introductory section exactly once, and then continuously loop a specific middle or ending section without restarting the whole song.
-</h5>
+
 
 ### Critical Rules for OpenOMF Tags
 <ul>
@@ -170,3 +192,5 @@ You can inject these metadata tags into your custom .ogg tracks using a free edi
     <li> Save & Deploy: Click OK to finish exporting. Package your track into your OpenOMF mod subdirectory under audio/music/.  </li> <br>
 
 </h5>
+
+</div>
