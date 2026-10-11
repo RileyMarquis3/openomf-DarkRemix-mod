@@ -52,7 +52,7 @@ convert: $(OGGS)
 
 zip: $(ZIPS)
 
-ARENA0/audio/music/ARENA0.ogg: ARENA0/Shady\ Monk\ -\ Stadium\ Remix\ [m1].flac
+ARENA0/audio/music/ARENA0.ogg: ARENA0/DeadFutureRadio\ -\ Stadium\ Dark\ Remix.flac
 	mkdir -p ARENA0/audio/music
 	ffmpeg-normalize "$<" \
 	    -f \
@@ -62,7 +62,7 @@ ARENA0/audio/music/ARENA0.ogg: ARENA0/Shady\ Monk\ -\ Stadium\ Remix\ [m1].flac
 	    -e='$(ARENA0_META)' \
 	    -o "$@"
 
-ARENA1/audio/music/ARENA1.ogg: ARENA1/DeBisco\ -\ Arena\ 1\ (Danger\ Room)\ [24-Bit\ Master].flac
+ARENA1/audio/music/ARENA1.ogg: ARENA1/DeadFutureRadio\ -\ Arena\ 1\ (Danger\ Room).flac
 	mkdir -p ARENA1/audio/music
 	ffmpeg-normalize "$<" \
 	    -f \
@@ -72,7 +72,7 @@ ARENA1/audio/music/ARENA1.ogg: ARENA1/DeBisco\ -\ Arena\ 1\ (Danger\ Room)\ [24-
 	    -e='$(ARENA1_META)' \
 	    -o "$@"
 
-ARENA2/audio/music/ARENA2.ogg: ARENA2/DeBisco\ -\ Arena\ 2\ (Power\ Plant)\ [24-Bit\ Master].flac
+ARENA2/audio/music/ARENA2.ogg: ARENA2/DeadFutureRadio\ -\ Arena\ 2\ (Power\ Plant).flac
 	mkdir -p ARENA2/audio/music
 	ffmpeg-normalize "$<" \
 	    -f \
@@ -82,7 +82,7 @@ ARENA2/audio/music/ARENA2.ogg: ARENA2/DeBisco\ -\ Arena\ 2\ (Power\ Plant)\ [24-
 	    -e='$(ARENA2_META)' \
 	    -o "$@"
 
-ARENA3/audio/music/ARENA3.ogg: ARENA3/One\ Must\ Fall\ 2097\ -\ Fire\ Pit\ (Shady\ Monk\ Remix)\ m1.flac
+ARENA3/audio/music/ARENA3.ogg: ARENA3/DeadFutureRadio\ -\ Arena\ 3\ (Fire\ Pit).flac
 	mkdir -p ARENA3/audio/music
 	ffmpeg-normalize "$<" \
 	    -f \
@@ -92,7 +92,7 @@ ARENA3/audio/music/ARENA3.ogg: ARENA3/One\ Must\ Fall\ 2097\ -\ Fire\ Pit\ (Shad
 	    -e='$(ARENA3_META)' \
 	    -o "$@"
 
-ARENA4/audio/music/ARENA4.ogg: ARENA4/One\ Must\ Fall\ 2097\ -\ Shady\ Monk\ Desert\ Remix\ (mastered)\ [longer\ alt.\ loop].flac
+ARENA4/audio/music/ARENA4.ogg: ARENA4/DeadFutureRadio\ -\ Arena\ 4\ (Desert).flac
 	mkdir -p ARENA4/audio/music
 	ffmpeg-normalize "$<" \
 	    -f \
@@ -102,7 +102,7 @@ ARENA4/audio/music/ARENA4.ogg: ARENA4/One\ Must\ Fall\ 2097\ -\ Shady\ Monk\ Des
 	    -e='$(ARENA4_META)' \
 	    -o "$@"
 
-END/audio/music/END.ogg: END/DeBisco\ -\ Ending\ [OST\ Version]\ [24-Bit\ Master]\ V3.flac
+END/audio/music/END.ogg: END/DeadFutureRadio\ -\ Ending.flac
 	mkdir -p END/audio/music
 	ffmpeg-normalize "$<" \
 	    -f \
