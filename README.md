@@ -6,18 +6,16 @@ DarkRemix Mod by DeadFutureRadio for use in OpenOMF
 NOTE: This README was copied from <a href="https://github.com/omf2097/openomf-music-mod/blob/main/README.md"> The OpenOMF Music Mod README</a>  and is being updated for this project.
 
 <div id="Disclaimers">
-  <details open>
-I am NOT the author of the audio tracks!  I am simply learning how to make this mod for OpenOMF. <br>
-</p>
 
-<p>
+I am NOT the author of the audio tracks!  I am simply learning how to make this mod for OpenOMF. <br>
+
 Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoyment. <br>
 </div>
 
 <hr> 
 
 <div id="Status">
-  <details open>
+ 
 ### What I Have Done So Far
 
 #### Music File Acquisition / Splitting
@@ -52,10 +50,11 @@ Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoy
 <hr> 
 
 <div id="Soundtracks">
-  <details open>
-# Soundtracks
-
+  
+## Soundtracks
+    
 Tracks by [**DeadFutureRadio**](https://deadfutureradio.com/).
+
 ## Tracks
 
 | Dir | Artist | Title | Length |
@@ -73,8 +72,8 @@ Tracks by [**DeadFutureRadio**](https://deadfutureradio.com/).
 <hr>
 
 <div id="Building">
-  <details>
-# Building
+
+  ## Building
 
 Requirements: `ffmpeg` (with libopus), `ffmpeg-normalize` (install via python pip),
 flac`, `zip`, and `git-lfs` (the flac sources are stored via LFS).
@@ -142,7 +141,7 @@ Each track's license is included in its directory as `LICENSE.txt`.
 <hr> 
 
 <div id="Troubleshooting">
-  <details open>
+  
 ## Troubleshooting
 
 If audio mods in OpenOMF (the open-source engine for One Must Fall: 2097) are not working, it is usually caused by incorrect folder structures, missing loop tags in OGG files, or misnamed configuration manifests.  
@@ -154,7 +153,8 @@ If audio mods in OpenOMF (the open-source engine for One Must Fall: 2097) are no
 
 <li> Loop Tags: Music tracks like arena themes require specific loop points (LOOPSTART and LOOPEND tags) encoded into the OGG metadata, or they may fail to play or loop properly. </li> <br>
 
-<li> Correct Directory: Place the zipped mod or unpacked mod folder into the designated OpenOMF mods/ directory. </li> <br>
+<li> Correct Directory: Place the zipped mod or unpacked mod folder into the designated OpenOMF mods/ directory. </li>
+
 </ul>
 
 </div>
@@ -162,7 +162,7 @@ If audio mods in OpenOMF (the open-source engine for One Must Fall: 2097) are no
 <hr>
 
 <div id="FileTags">
-  <details open>
+  
 ## File Tags
 
 In OpenOMF (the open-source clone of One Must Fall 2097), LOOPSTART and LOOPEND metadata tags are used inside .ogg audio files to create seamless background music. These tags allow the game engine to play a track's introductory section exactly once, and then continuously loop a specific middle or ending section without restarting the whole song.
