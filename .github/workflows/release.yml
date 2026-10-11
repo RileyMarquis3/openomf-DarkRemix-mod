@@ -1,0 +1,54 @@
+name: Build and release mods
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.flac'
+      - '**/manifest.ini'
+      - '**/LICENSE.txt'
+      - 'Makefile'
+      - '.github/workflows/release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build and publish soundtrack mods
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v6
+      with:
+        lfs: true
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg flac zip pipx
+        pipx install ffmpeg-normalize
+        pipx ensurepath
+
+    - name: Build mod zips
+      run: make
+
+    - name: Bundle all mods into a single archive
+      run: |
+        cd mod_files
+        zip ../openomf-mods.zip *.zip
+
+    - name: Publish rolling "latest" release
+      uses: ncipollo/release-action@v1.21.0
+      with:
+        artifacts: "mod_files/*.zip,openomf-mods.zip"
+        tag: latest
+        name: "Latest soundtrack mods"
+        body: |
+          Automatically built soundtrack mods.
+        allowUpdates: true
+        removeArtifacts: true
+        makeLatest: true
+        prerelease: false
+        token: ${{ secrets.GITHUB_TOKEN }}
