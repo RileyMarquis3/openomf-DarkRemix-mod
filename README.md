@@ -14,13 +14,22 @@ Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoy
 <hr> 
 
 ### What I Have Done So Far
+
+#### Music File Acquisition / Splitting
 <ul>
-  <li>Saved a copy of the original soundtrack file from https://www.youtube.com/watch?v=GLQTorm1OEw with <br> VideoDownloadHelper for Firefox (https://downloadhelper.net). </li>
+  <li>Saved a copy of the <a href="https://www.youtube.com/watch?v=GLQTorm1OEw"> original soundtrack file</a> with <a href="https://downloadhelper.net">VideoDownloadHelper for Firefox</a>. </li>
   <li>Used WinFF to convert the downloaded video into audio format. </li>
   <li>Used Audacity and the Youtube Description to split the file into its relevant soundtrack files (ARENA0, etc.)</li>
+</ul>
+
+
+#### File / Folder Updates
+<ul>
   <li>Created the file/folder structure based on the forked audio mods </li>
   <li>Modified the manifest.ini files and LICENSE.txt files.</li>
   <li>Updated the Makefile to show better FLAC file names.</li>
+  <li>Copied over the .gitattributes, .gitignore, and Github workflow file (release.yml).</li>
+  <li>Updated the LICENSE.ini and manifest.ini files.</li>
 </ul>
 
 ### Things I Still Need To Do
