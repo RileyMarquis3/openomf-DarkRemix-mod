@@ -20,12 +20,13 @@ Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoy
   <li>Used Audacity and the Youtube Description to split the file into its relevant soundtrack files (ARENA0, etc.)</li>
   <li>Created the file/folder structure based on the forked audio mods </li>
   <li>Modified the manifest.ini files and LICENSE.txt files.</li>
+  <li>Updated the Makefile to show better FLAC file names.</li>
 </ul>
 
 ### Things I Still Need To Do
 <ul>
   <li>Determine and create the loop points.</li>
-  <li>Update the Makefile with the correct file names and loop points.</li>
+  <li>Update the Makefile with the correct loop points.</li>
   <li>Test the mods (not currently working for some reason!).</li>
   <li>Let DarkFutureRadio know about the mod and have it reviewed and approved.</li>
 </ul>
@@ -34,8 +35,7 @@ Sadly, this mod does NOT work yet, but the audio tracks are ready for your enjoy
 
 # Soundtracks
 
-Tracks by [**Shady Monk**](https://linktr.ee/shadymonk) (Shay.) and [**DeBisco**](https://www.debiscomusic.com/).
-
+Tracks by [**DeadFutureRadio**](https://deadfutureradio.com/).
 ## Tracks
 
 | Dir | Artist | Title | Length |
